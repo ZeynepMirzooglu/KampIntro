@@ -27,13 +27,7 @@ namespace KampIntro
             }
 
 
-            if (sistemeGirisYapmisMi==true)
-            {
-                Console.WriteLine("Kullanıcı ayarları butonu");
-            }else
-            {
-                Console.WriteLine("Giriş yap butonu");
-            }
+            Console.WriteLine(sistemeGirisYapmisMi == true ? "Kullanıcı ayarları butonu" : "Giriş yap butonu");
 
             Console.WriteLine(kategoriEtiketi);
         }
